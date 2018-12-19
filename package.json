@@ -1,0 +1,24 @@
+{
+  "name": "employeefinder",
+  "version": "1.0.0",
+  "description": "This is an Employee Finder application. This application site will take in results from your users' surveys,  then compare their answers with those from other users. The app will then display the name and picture of the  user with the best overall match.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjohn219/EmployeeFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjohn219/EmployeeFinder/issues"
+  },
+  "homepage": "https://github.com/kjohn219/EmployeeFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
